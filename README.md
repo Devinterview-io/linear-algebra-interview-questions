@@ -141,10 +141,15 @@ $$
 
 #### Mathematical Formulation
 
-- **Scalar**: Denoted by a lower-case italicized letter $x$.
+- **Scalar**: Denoted by a lower-case italicized letter 
+![equation](https://latex.codecogs.com/gif.latex?x)
 
-- **Vector**: Typically represented using a lowercase bold letter (e.g., $\mathbf{v}$) or with an arrow over the variable ($\vec{v}$). Its components can be expressed in a column matrix $v = \begin{bmatrix} v_1 \\ v_2 \\ \ldots \\ v_n \end{bmatrix}$ or as a transposed row vector. 
-  $$v = [v_1, v_2, \ldots, v_n]$$
+- **Vector**: Typically represented using a lowercase bold letter (e.g., 
+![equation](https://latex.codecogs.com/gif.latex?\mathbf{v})) or with an arrow over the variable (
+![equation](https://latex.codecogs.com/gif.latex?\vec{v})). Its components can be expressed in a column matrix 
+![equation](https://latex.codecogs.com/gif.latex?v&space;=&space;\begin{bmatrix}&space;v_1&space;\\&space;v_2&space;\\&space;\ldots&space;\\&space;v_n&space;\end{bmatrix}) or as a transposed row vector. 
+![equation](https://latex.codecogs.com/gif.latex?v&space;=&space;[v_1,&space;v_2,&space;\ldots,&space;v_n])
+
 
 #### Visualization in 3D Space
 
@@ -177,31 +182,23 @@ At the heart of Linear Algebra lies the concept of **matrices**, which serve as 
 
 ### Visual Representation
 
-The **Cartesian Coordinate System** can visually represent transformations through matrices. For example:
+- The **Cartesian Coordinate System** can visually represent transformations through matrices. For example:
 
-- **For Reflection**: The 2D matrix
+- **For Reflection**: The 2D matrix 
 
-$$
-\begin{bmatrix} 1 & 0 \\ 0 & -1 \end{bmatrix}
-$$
+![equation](https://latex.codecogs.com/gif.latex?\begin{bmatrix}&space;1&space;&&space;0&space;\\&space;0&space;&&space;-1&space;\end{bmatrix}) flips the y-component.
 
-flips the y-component.
+- **For Rotation**: The 2D matrix 
 
-- **For Rotation**: The 2D matrix
+![equation](https://latex.codecogs.com/gif.latex?\begin{bmatrix}&space;\cos(\theta)&space;&&space;-\sin(\theta)&space;\\&space;\sin(\theta)&space;&&space;\cos(\theta)&space;\end{bmatrix}) rotates points by 
 
-$$
-\begin{bmatrix} \cos(\theta) & -\sin(\theta) \\ \sin(\theta) & \cos(\theta) \end{bmatrix}
-$$
+![equation](https://latex.codecogs.com/gif.latex?\theta) radians.
 
-rotates points by $\theta$ radians.
+- **For Scaling**: The 2D matrix 
 
-- **For Scaling**: The 2D matrix
+![equation](https://latex.codecogs.com/gif.latex?\begin{bmatrix}&space;k&space;&&space;0&space;\\&space;0&space;&&space;k&space;\end{bmatrix}) scales points by a factor of 
 
-$$
-\begin{bmatrix} k & 0 \\ 0 & k \end{bmatrix}
-$$
-
-scales points by a factor of $k$ in both dimensions.
+![equation](https://latex.codecogs.com/gif.latex?k) in both dimensions.
 
 ### Application in Multiple domains
 
@@ -502,7 +499,7 @@ The **cross product** is a well-known operation between two vectors in three-dim
 
 ### Cross Product Formula
 
-For two three-dimensional vectors $\mathbf{a} = \begin{bmatrix} a_1 \\ a_2 \\ a_3 \end{bmatrix}$ and $\mathbf{b} = \begin{bmatrix} b_1 \\ b_2 \\ b_3 \end{bmatrix}$, their cross product $\mathbf{c}$ is calculated as:
+For two three-dimensional vectors ![equation](https://latex.codecogs.com/gif.latex?\mathbf{a}&space;=&space;\begin{bmatrix}&space;a_1&space;\\&space;a_2&space;\\&space;a_3&space;\end{bmatrix}) and ![equation](https://latex.codecogs.com/gif.latex?\mathbf{b}&space;=&space;\begin{bmatrix}&space;b_1&space;\\&space;b_2&space;\\&space;b_3&space;\end{bmatrix}), their cross product ![equation](https://latex.codecogs.com/gif.latex?\mathbf{c}) is calculated as:
 
 $$
 \mathbf{c} = \mathbf{a} \times \mathbf{b} =
